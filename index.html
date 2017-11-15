@@ -2,7 +2,7 @@
 <head>
     <meta charset='UTF-8'>
     <meta name="robots" content="noindex">
-    <title>The Experiment Factory psychological-refactory-period-two-choices</title>
+    <title>The Experiment Factory psychological-refractory-period-two-choices</title>
     
 <link rel='stylesheet' type='text/css' href='jspsych.css'>
 <link rel='stylesheet' type='text/css' href='default_style.css'>
@@ -29,11 +29,11 @@
 $( document ).ready(function() {
 
     jsPsych.init({
-             timeline: psychological_refactory_period_two_choices_experiment,
+             timeline: psychological_refractory_period_two_choices_experiment,
              display_element: "getDisplayElement",
              fullscreen: true,
              on_trial_finish: function(data){
-               addID('psychological-refactory-period-two-choices')
+               addID('psychological-refractory-period-two-choices')
              },
 
              on_finish: function(data){
@@ -61,7 +61,7 @@ $( document ).ready(function() {
                                  document.location = "/next";
                              } else {
                                  // If error, assue local save
-                                 jsPsych.data.localSave('psychological-refactory-period-two-choices_results.csv', 'csv');
+                                 jsPsych.data.localSave('psychological-refractory-period-two-choices_results.csv', 'csv');
                              }
                          }
                      });
