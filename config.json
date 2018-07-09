@@ -1,16 +1,16 @@
 {
-    "name": "Psychological Refractory Period Two Choices",
-    "exp_id": "psychological-refractory-period-two-choices",
-    "cognitive_atlas_task_id": "trm_51c453f64d2a6",
+    "name": "Psychological Refractory Period Four Choices",
+    "exp_id": "psychological-refractory-period-four-choices",
     "instructions":"Respond to the stimuli on the screen.",
     "description":"Expfactory experiment",
-    "url":"https://www.github.com/expfactory-experiments/psychological-refractory-period-two-choices",
+    "url":"https://github.com/alexjago/psychological-refractory-period-four-choices",
     "contributors": [
         "Ian Eisenberg",
         "Zeynep Enkavi",
         "Patrick Bissett",
         "Vanessa Sochat",
-        "Russell Poldrack"
+        "Russell Poldrack",
+        "Alex Jago"
     ],
     "reference": ["http://psycnet.apa.org/journals/bul/116/2/220.pdf"],
     "template": "jspsych",
