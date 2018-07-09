@@ -172,11 +172,10 @@ var curr_data = {
 var path_source = 'images/'
 var stim_prefix = '<div class = prp_centerbox><div class = prp_stimBox><img class = prpStim src ='
   // border color relates to the go-nogo task. The subject should GO to the first two borders in the following array:
-var borders = jsPsych.randomization.shuffle([['1_border.png', 'red'], ['2_border.png', 'blue'], 
-	['3_border.png', 'green'], ['4_border.png', 'yellow']
-  ])
+var borders = [['1_border.png', 'red'], ['2_border.png', 'blue'], 
+	['3_border.png', 'green'], ['4_border.png', 'yellow'] ]
   // inner number reflect the choice RT. 
-var inners = jsPsych.randomization.shuffle([3,4,5,6])
+var inners = [3,4,5,6]
 
 //instruction stim
 var box1 = '<div class = prp_far-left-instruction><div class = prp_stimBox><img class = prpStim src = ' +
